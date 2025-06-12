@@ -30,7 +30,7 @@
                         <div class="card-body">
                             <h5 class="card-title">Orbital 13</h5>
                             <p class="card-text">Um jogo inspirado em SpaceStation 13/14.</p>
-                            <button type="button" class="btn btn-link">Ir para o projeto</button>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja o projeto</button>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                         <div class="card-body">
                             <h5 class="card-title">DoomShift Engine</h5>
                             <p class="card-text">Motor gráfico para a criação de jogos com muitas simulações.</p>
-                            <button type="button" class="btn btn-link">Ir para o projeto</button>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja o projeto</button>
                         </div>
                     </div>
                 
@@ -51,20 +51,77 @@
                         <div class="card-body">
                             <h5 class="card-title">Corrida</h5>
                             <p class="card-text">Uma divertida corrida de caracteres.</p>
-                            <button type="button" class="btn btn-link">Ir para o projeto</button>
+                            <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja o projeto</button>
                         </div>
                     </div>
                 
                 </div>
             </div>
         </main>
-            <footer class="container py-5">
+
+
+        <div class="modal" id = "modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Orbital 13</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p> Orbital 13 é um jogo inspirado nos jogos Spacestation 13 e 14 e roda usando o motor gráfico DoomShift. </p>
+                        <p> O jogo se passa numa estação de uma compania chamada Orbital, o número da estação é 13 sendo número de má sorte, a estação orbita um corpo celeste que está causando diversas anomalias mortais para a tripulação.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal" id = "modal2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">DoomShift Engine</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p> DoomShift Engine é um motor gráfico feito para simulação massiva e jogos multiplayer. </p>
+                        <p> DoomShift foi inspirado na Robust Toolbox Engine, a DoomShift foi inicialmente feita para o desenvolvimento do jogo Orbital13, usando de C++ como linguagem principal e C# como linguagem de sccript.</p>
+                        <p> Seu nome faz referência a Redshift e Blueshift (desvio pro vermelho/azul) um termo usado em astronomia para objetos celestes que estão se afastando/aproximando da terra, sendo causa do efeito doppler.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal" id = "modal3" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Corrida</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p> Um simples jogo de corrida multiplayer feito em JavaScript no P5JS para o curso do alura. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <footer class="container py-5">
             <h2>Entre em contato</h2>
             <div>
                 <a href="https://github.com/WolfyCB">GitHub</a>
                 <a href="00001125075260sp@al.educacao.sp.gov.br">Email</a>
             </div>
-            <p class="my-5 text-center">© Copyright 2024. Produzido por Rogério Gomes</p>
+            <p class="my-5 text-center">© Copyright 2025. Produzido por Rogério Gomes</p>
         </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
