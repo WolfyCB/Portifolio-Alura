@@ -31,3 +31,10 @@ a:hover{
     color: var(--cor-destaque);
 }
 
+.modal-body{
+    color: darkblue;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
